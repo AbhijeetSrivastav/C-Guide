@@ -24,7 +24,7 @@ For example, output for the below program is 0, i.e., the value returned by f() 
     }
 ```
 
-- **Block Scope:**A Block is a set of statements enclosed within left and right braces i.e. ‘{‘ and ‘}’ respectively. Blocks may be nested in C(a block may contain other blocks inside it). A variable declared inside a block is accessible in the block and all inner blocks of that block, but not accessible outside the block. Basically these are local to the blocks in which the variables are defined and are not accessible outside.
+- **Block Scope:** A Block is a set of statements enclosed within left and right braces i.e. ‘{‘ and ‘}’ respectively. Blocks may be nested in C(a block may contain other blocks inside it). A variable declared inside a block is accessible in the block and all inner blocks of that block, but not accessible outside the block. Basically these are local to the blocks in which the variables are defined and are not accessible outside.
 
 ```c
     void function(){
@@ -42,7 +42,7 @@ For example, output for the below program is 0, i.e., the value returned by f() 
     }
 ```
 
-- **Function Prototype Scope:**These variables range includes within the function parameter list. The scope of the these variables begins right after the declaration in the function prototype and runs to the end of the declarations list. These scopes don’t include the function definition, but just the function prototype.
+- **Function Prototype Scope:** These variables range includes within the function parameter list. The scope of the these variables begins right after the declaration in the function prototype and runs to the end of the declarations list. These scopes don’t include the function definition, but just the function prototype.
 
 ```c
     \\function protoype scope
@@ -53,7 +53,7 @@ For example, output for the below program is 0, i.e., the value returned by f() 
     int num1;
 ```
 
-- **Function Scope:**A Function scope begins at the opening of the function and ends with the closing of it. Function scope is applicable to labels only. A label declared is used as a target to go to the statement and both goto and label statement must be in the same function.
+- **Function Scope:** A Function scope begins at the opening of the function and ends with the closing of it. Function scope is applicable to labels only. A label declared is used as a target to go to the statement and both goto and label statement must be in the same function.
 
 ```c
     void func1()
