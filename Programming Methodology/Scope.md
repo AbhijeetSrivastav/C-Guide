@@ -45,11 +45,11 @@ For example, output for the below program is 0, i.e., the value returned by f() 
 - **Function Prototype Scope:** These variables range includes within the function parameter list. The scope of the these variables begins right after the declaration in the function prototype and runs to the end of the declarations list. These scopes don’t include the function definition, but just the function prototype.
 
 ```c
-    \\function protoype scope
-    \\its not part of the function
+    //function protoype scope
+    //its not part of the function
     int function(int num1, int num2);
 
-    \\file scope
+    //file scope
     int num1;
 ```
 
@@ -59,22 +59,22 @@ For example, output for the below program is 0, i.e., the value returned by f() 
     void func1()
 {
     {
-        // label in scope even
-        // though declared later
+        //label in scope even
+        //though declared later
         goto label_exec;
  
     label_exec:;
     }
  
-    // label ignores block scope
+    //label ignores block scope
     goto label_exec;
 }
  
 void funct2()
 {
  
-    // throwserror:
-    // as label is in func1() not funct2()
+    //throwserror:
+    //as label is in func1() not funct2()
     goto label_exec;
 }
 ```
