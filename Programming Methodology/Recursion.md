@@ -40,7 +40,6 @@ A recursive function is tail recursive when recursive call is the last thing exe
 
 When any function is called from main(), the memory is allocated to it on the stack. A recursive function calls itself, the memory for a called function is allocated on top of memory allocated to calling function and different copy of local variables is created for each function call. When the base case is reached, the function returns its value to the function by whom it is called and memory is de-allocated and the process continues.
 
-
 ```c
     // C code to implement Fibonacci series
     #include <stdio.h>
