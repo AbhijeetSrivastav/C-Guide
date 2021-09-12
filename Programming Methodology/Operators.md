@@ -25,7 +25,7 @@ Operator is a symbol which tells the compiler to perform certain mathematical or
 | ++, --                | Unary      | right to left |
 | +, -, *, /, %         | Arithmetic | left to right |
 | <, >, <=, >=, ==, !=  | Relational | left to right |
-| &&, OR, !             | Logical    | left to right |
-| &, OR, <<, >>, ~, ^    | Bitwise    | left to right |
+| &&, \| \\| , !        | Logical    | left to right |
+| &, \| , <<, >>, ~, ^  | Bitwise    | left to right |
 | =, +=, -=,*=, /=, %=  | Assignment | right to left |
 |  ?:                   | Ternary    | right to left |
